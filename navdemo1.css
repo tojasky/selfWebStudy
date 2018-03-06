@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+	white-space: nowrap; //列表文本强制不换行
+}
+h1 {
+	text-align: center;
+}
+#nav {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #222;
+//	margin-top:80px;
+}
+.mainlist {
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto; 
+}
+.mainlist li {
+	float: left;
+	position: relative;
+}
+.mainlist li a {
+	color: #999;
+	line-height: 40px;
+	padding: 0 30px;
+	display: block;
+}
+.sublist {
+	position: absolute;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s linear;
+} 
+.sublist li {
+	width: 100%;
+	background-color: #555;
+}
+.sublist li a {
+	font-size: 12px;
+	display: block;
+}
+ul li:hover>a {
+	color: #fff;
+	background-color: #d92;
+}
+ul li:hover ul {
+	max-height: 200px;  //根据子列表数目更改
+}
