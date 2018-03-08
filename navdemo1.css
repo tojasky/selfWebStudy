@@ -7,7 +7,7 @@ a {
 }
 li {
 	list-style: none;
-	white-space: nowrap; //列表文本强制不换行
+	white-space: nowrap; /* 列表文本强制不换行 */
 }
 h1 {
 	text-align: center;
@@ -16,8 +16,8 @@ h1 {
 	margin: 0 auto;
 	width: 100%;
 	background-color: #222;
-//	margin-top:80px;
-}
+/* 	margin-top:80px;
+ */}
 .mainlist {
 	width: 1000px;
 	height: 40px;
@@ -52,5 +52,5 @@ ul li:hover>a {
 	background-color: #d92;
 }
 ul li:hover ul {
-	max-height: 200px;  //根据子列表数目更改
+	max-height: 200px;  /* 根据子列表数目更改 */
 }
